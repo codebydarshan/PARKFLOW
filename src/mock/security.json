@@ -1,0 +1,269 @@
+{
+  "profile": {
+    "id": "usr_02",
+    "name": "Marcus Webb",
+    "email": "marcus.webb@riverside.demo",
+    "role": "security",
+    "unit": "Gate A",
+    "avatarInitials": "MW"
+  },
+  "stats": {
+    "visitorsExpected": 8,
+    "visitorsInside": 5,
+    "parkingOccupied": 12,
+    "parkingAvailable": 6,
+    "expiredPasses": 2,
+    "overstays": 1
+  },
+  "visitors": [
+    {
+      "id": "sec_v01",
+      "visitorName": "Emily Brooks",
+      "residentName": "Darshan",
+      "apartment": "B-204",
+      "vehiclePlate": "TX-8PL21",
+      "vehicleType": "car",
+      "visitorId": "PF-PASS-R01-DARSHAN",
+      "arrivalTime": "2026-07-27T08:00:00.000Z",
+      "expiryTime": "2026-07-27T22:00:00.000Z",
+      "parkingSlot": "A-03",
+      "status": "inside",
+      "entryTime": "2026-07-27T08:12:00.000Z",
+      "expectedExit": "2026-07-27T22:00:00.000Z",
+      "qrCode": "PF-PASS-R01-DARSHAN"
+    },
+    {
+      "id": "sec_v02",
+      "visitorName": "Noah Patel",
+      "residentName": "Jordan Lee",
+      "apartment": "A-118",
+      "vehiclePlate": "TX-1VK03",
+      "vehicleType": "car",
+      "visitorId": "PF-PASS-1002-RIVERSIDE",
+      "arrivalTime": "2026-07-27T10:00:00.000Z",
+      "expiryTime": "2026-07-27T18:00:00.000Z",
+      "parkingSlot": "B-06",
+      "status": "inside",
+      "entryTime": "2026-07-27T10:08:00.000Z",
+      "expectedExit": "2026-07-27T18:00:00.000Z",
+      "qrCode": "PF-PASS-1002-RIVERSIDE"
+    },
+    {
+      "id": "sec_v03",
+      "visitorName": "Courier Express",
+      "residentName": "Darshan",
+      "apartment": "B-204",
+      "vehiclePlate": "TX-DLV88",
+      "vehicleType": "delivery",
+      "visitorId": "PF-PASS-R02-DARSHAN",
+      "arrivalTime": "2026-07-27T15:00:00.000Z",
+      "expiryTime": "2026-07-27T17:00:00.000Z",
+      "parkingSlot": "C-01",
+      "status": "inside",
+      "entryTime": "2026-07-27T15:05:00.000Z",
+      "expectedExit": "2026-07-27T17:00:00.000Z",
+      "qrCode": "PF-PASS-R02-DARSHAN"
+    },
+    {
+      "id": "sec_v04",
+      "visitorName": "Sofia Guest",
+      "residentName": "Sofia Alvarez",
+      "apartment": "C-301",
+      "vehiclePlate": "TX-7XM55",
+      "vehicleType": "taxi",
+      "visitorId": "PF-PASS-S04-SOFIA",
+      "arrivalTime": "2026-07-27T14:00:00.000Z",
+      "expiryTime": "2026-07-27T16:00:00.000Z",
+      "parkingSlot": "C-02",
+      "status": "overstay",
+      "entryTime": "2026-07-27T14:10:00.000Z",
+      "expectedExit": "2026-07-27T16:00:00.000Z",
+      "qrCode": "PF-PASS-S04-SOFIA"
+    },
+    {
+      "id": "sec_v05",
+      "visitorName": "Liam Ortega",
+      "residentName": "Sofia Alvarez",
+      "apartment": "C-301",
+      "vehiclePlate": "TX-6YD42",
+      "vehicleType": "car",
+      "visitorId": "PF-PASS-1003-RIVERSIDE",
+      "arrivalTime": "2026-07-27T16:00:00.000Z",
+      "expiryTime": "2026-07-27T21:00:00.000Z",
+      "parkingSlot": null,
+      "status": "expected",
+      "qrCode": "PF-PASS-1003-RIVERSIDE"
+    },
+    {
+      "id": "sec_v06",
+      "visitorName": "Maya Singh",
+      "residentName": "Darshan",
+      "apartment": "B-204",
+      "vehiclePlate": "TX-2HN77",
+      "vehicleType": "car",
+      "visitorId": "PF-PASS-R03-DARSHAN",
+      "arrivalTime": "2026-07-27T18:00:00.000Z",
+      "expiryTime": "2026-07-27T22:00:00.000Z",
+      "parkingSlot": "C-04",
+      "status": "expected",
+      "qrCode": "PF-PASS-R03-DARSHAN"
+    },
+    {
+      "id": "sec_v07",
+      "visitorName": "Harper Kim",
+      "residentName": "Jordan Lee",
+      "apartment": "A-118",
+      "vehiclePlate": "TX-2FJ19",
+      "vehicleType": "bike",
+      "visitorId": "PF-PASS-1004-RIVERSIDE",
+      "arrivalTime": "2026-07-26T09:00:00.000Z",
+      "expiryTime": "2026-07-26T17:00:00.000Z",
+      "parkingSlot": "C-05",
+      "status": "expired",
+      "entryTime": "2026-07-26T09:20:00.000Z",
+      "expectedExit": "2026-07-26T17:00:00.000Z",
+      "qrCode": "PF-PASS-1004-RIVERSIDE"
+    },
+    {
+      "id": "sec_v08",
+      "visitorName": "Ethan Cole",
+      "residentName": "Jordan Lee",
+      "apartment": "A-118",
+      "vehiclePlate": "TX-9HG61",
+      "vehicleType": "car",
+      "visitorId": "PF-PASS-1005-RIVERSIDE",
+      "arrivalTime": "2026-07-24T12:00:00.000Z",
+      "expiryTime": "2026-07-24T20:00:00.000Z",
+      "parkingSlot": null,
+      "status": "invalid",
+      "qrCode": "PF-PASS-1005-RIVERSIDE"
+    },
+    {
+      "id": "sec_v09",
+      "visitorName": "Priya Guest",
+      "residentName": "Priya Nair",
+      "apartment": "Office",
+      "vehiclePlate": "TX-5RT88",
+      "vehicleType": "car",
+      "visitorId": "PF-PASS-ADM-01",
+      "arrivalTime": "2026-07-27T11:00:00.000Z",
+      "expiryTime": "2026-07-27T15:00:00.000Z",
+      "parkingSlot": "B-05",
+      "status": "inside",
+      "entryTime": "2026-07-27T11:05:00.000Z",
+      "expectedExit": "2026-07-27T15:00:00.000Z",
+      "qrCode": "PF-PASS-ADM-01"
+    },
+    {
+      "id": "sec_v10",
+      "visitorName": "Alex Rivera",
+      "residentName": "Darshan",
+      "apartment": "B-204",
+      "vehiclePlate": "TX-4DEMO1",
+      "vehicleType": "car",
+      "visitorId": "PF-PASS-DEMO-ALEX",
+      "arrivalTime": "2026-07-27T19:00:00.000Z",
+      "expiryTime": "2026-07-27T23:00:00.000Z",
+      "parkingSlot": "A-02",
+      "status": "expected",
+      "qrCode": "PF-PASS-DEMO-ALEX"
+    }
+  ],
+  "activity": [
+    {
+      "id": "act_s01",
+      "type": "entered",
+      "title": "Visitor entered",
+      "description": "Emily Brooks · slot A-03",
+      "timestamp": "2026-07-27T08:12:00.000Z"
+    },
+    {
+      "id": "act_s02",
+      "type": "verified",
+      "title": "QR verified",
+      "description": "Noah Patel pass approved at Gate A",
+      "timestamp": "2026-07-27T10:07:00.000Z"
+    },
+    {
+      "id": "act_s03",
+      "type": "assigned",
+      "title": "Parking assigned",
+      "description": "B-06 reserved for Noah Patel",
+      "timestamp": "2026-07-27T10:08:00.000Z"
+    },
+    {
+      "id": "act_s04",
+      "type": "entered",
+      "title": "Visitor entered",
+      "description": "Courier Express · slot C-01",
+      "timestamp": "2026-07-27T15:05:00.000Z"
+    },
+    {
+      "id": "act_s05",
+      "type": "expired",
+      "title": "Pass expired",
+      "description": "Sofia Guest overstay flagged on C-02",
+      "timestamp": "2026-07-27T16:02:00.000Z"
+    },
+    {
+      "id": "act_s06",
+      "type": "rejected",
+      "title": "Entry rejected",
+      "description": "Ethan Cole · revoked credential",
+      "timestamp": "2026-07-27T12:30:00.000Z"
+    }
+  ],
+  "parkingSummary": [
+    { "zone": "Tower A", "occupied": 4, "available": 2, "total": 6 },
+    { "zone": "Tower B", "occupied": 4, "available": 2, "total": 6 },
+    { "zone": "Visitor Bay", "occupied": 4, "available": 2, "total": 6 }
+  ],
+  "upcomingArrivals": [
+    {
+      "visitorName": "Maya Singh",
+      "residentName": "Darshan",
+      "eta": "6:00 PM",
+      "vehiclePlate": "TX-2HN77"
+    },
+    {
+      "visitorName": "Alex Rivera",
+      "residentName": "Darshan",
+      "eta": "7:00 PM",
+      "vehiclePlate": "TX-4DEMO1"
+    },
+    {
+      "visitorName": "Liam Ortega",
+      "residentName": "Sofia Alvarez",
+      "eta": "Arriving soon",
+      "vehiclePlate": "TX-6YD42"
+    }
+  ],
+  "tips": [
+    "Verify plate matches the pass before opening the gate.",
+    "Mark exits promptly so visitor bays return to the pool.",
+    "Overstays appear in amber — contact the host unit first."
+  ],
+  "emergencyContacts": [
+    { "label": "Gate Supervisor", "value": "+1 512 555 0100" },
+    { "label": "Community Office", "value": "+1 512 555 0140" },
+    { "label": "Emergency", "value": "911" }
+  ],
+  "mockQrOptions": [
+    {
+      "label": "Emily Brooks (valid)",
+      "visitorId": "PF-PASS-R01-DARSHAN"
+    },
+    {
+      "label": "Maya Singh (expected)",
+      "visitorId": "PF-PASS-R03-DARSHAN"
+    },
+    {
+      "label": "Ethan Cole (invalid)",
+      "visitorId": "PF-PASS-1005-RIVERSIDE"
+    },
+    {
+      "label": "Unknown ID",
+      "visitorId": "PF-PASS-UNKNOWN-000"
+    }
+  ]
+}

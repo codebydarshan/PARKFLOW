@@ -1,0 +1,20 @@
+[
+  { "id": "slot_a01", "label": "A-01", "zone": "Tower A", "status": "occupied", "vehiclePlate": "TX-4K9M2" },
+  { "id": "slot_a02", "label": "A-02", "zone": "Tower A", "status": "available" },
+  { "id": "slot_a03", "label": "A-03", "zone": "Tower A", "status": "reserved", "vehiclePlate": "TX-8PL21" },
+  { "id": "slot_a04", "label": "A-04", "zone": "Tower A", "status": "available" },
+  { "id": "slot_a05", "label": "A-05", "zone": "Tower A", "status": "occupied", "vehiclePlate": "TX-2HN77" },
+  { "id": "slot_a06", "label": "A-06", "zone": "Tower A", "status": "available" },
+  { "id": "slot_b01", "label": "B-01", "zone": "Tower B", "status": "occupied", "vehiclePlate": "TX-9QW14" },
+  { "id": "slot_b02", "label": "B-02", "zone": "Tower B", "status": "available" },
+  { "id": "slot_b03", "label": "B-03", "zone": "Tower B", "status": "available" },
+  { "id": "slot_b04", "label": "B-04", "zone": "Tower B", "status": "blocked" },
+  { "id": "slot_b05", "label": "B-05", "zone": "Tower B", "status": "occupied", "vehiclePlate": "TX-5RT88" },
+  { "id": "slot_b06", "label": "B-06", "zone": "Tower B", "status": "reserved", "vehiclePlate": "TX-1VK03" },
+  { "id": "slot_c01", "label": "C-01", "zone": "Visitor Bay", "status": "available" },
+  { "id": "slot_c02", "label": "C-02", "zone": "Visitor Bay", "status": "occupied", "vehiclePlate": "TX-7XM55" },
+  { "id": "slot_c03", "label": "C-03", "zone": "Visitor Bay", "status": "available" },
+  { "id": "slot_c04", "label": "C-04", "zone": "Visitor Bay", "status": "available" },
+  { "id": "slot_c05", "label": "C-05", "zone": "Visitor Bay", "status": "occupied", "vehiclePlate": "TX-3BN90" },
+  { "id": "slot_c06", "label": "C-06", "zone": "Visitor Bay", "status": "available" }
+]

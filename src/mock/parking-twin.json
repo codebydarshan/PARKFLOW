@@ -1,0 +1,621 @@
+{
+  "communityName": "Riverside Heights",
+  "slots": [
+    {
+      "id": "twin_p01",
+      "label": "P01",
+      "status": "occupied",
+      "vehicleType": "car",
+      "vehiclePlate": "TX-8PL21",
+      "visitorName": "Emily Brooks",
+      "residentName": "Darshan",
+      "apartment": "B-204",
+      "arrivalTime": "2026-07-27T08:00:00.000Z",
+      "expectedExit": "2026-07-27T11:00:00.000Z",
+      "qrStatus": "approved",
+      "passId": "pass_twin_01",
+      "timeline": [
+        {
+          "id": "tl_P01_1",
+          "time": "Created",
+          "title": "Pass issued",
+          "description": "Visitor pass created by Darshan"
+        },
+        {
+          "id": "tl_P01_2",
+          "time": "Arrived",
+          "title": "Checked in at gate",
+          "description": "Slot P01"
+        }
+      ]
+    },
+    {
+      "id": "twin_p02",
+      "label": "P02",
+      "status": "occupied",
+      "vehicleType": "car",
+      "vehiclePlate": "TX-1VK03",
+      "visitorName": "Noah Patel",
+      "residentName": "Jordan Lee",
+      "apartment": "A-118",
+      "arrivalTime": "2026-07-27T09:07:00.000Z",
+      "expectedExit": "2026-07-27T12:07:00.000Z",
+      "qrStatus": "approved",
+      "passId": "pass_twin_02",
+      "timeline": [
+        {
+          "id": "tl_P02_1",
+          "time": "Created",
+          "title": "Pass issued",
+          "description": "Visitor pass created by Jordan Lee"
+        },
+        {
+          "id": "tl_P02_2",
+          "time": "Arrived",
+          "title": "Checked in at gate",
+          "description": "Slot P02"
+        }
+      ]
+    },
+    {
+      "id": "twin_p03",
+      "label": "P03",
+      "status": "available"
+    },
+    {
+      "id": "twin_p04",
+      "label": "P04",
+      "status": "occupied",
+      "vehicleType": "bike",
+      "vehiclePlate": "TX-6YD42",
+      "visitorName": "Liam Ortega",
+      "residentName": "Priya Nair",
+      "apartment": "Office",
+      "arrivalTime": "2026-07-27T11:21:00.000Z",
+      "expectedExit": "2026-07-27T14:21:00.000Z",
+      "qrStatus": "approved",
+      "passId": "pass_twin_04",
+      "timeline": [
+        {
+          "id": "tl_P04_1",
+          "time": "Created",
+          "title": "Pass issued",
+          "description": "Visitor pass created by Priya Nair"
+        },
+        {
+          "id": "tl_P04_2",
+          "time": "Arrived",
+          "title": "Checked in at gate",
+          "description": "Slot P04"
+        }
+      ]
+    },
+    {
+      "id": "twin_p05",
+      "label": "P05",
+      "status": "reserved",
+      "vehicleType": "car",
+      "vehiclePlate": "TX-4DEMO1",
+      "visitorName": "Alex Rivera",
+      "residentName": "Sofia Alvarez",
+      "apartment": "C-301",
+      "arrivalTime": "2026-07-27T12:28:00.000Z",
+      "expectedExit": "2026-07-27T15:28:00.000Z",
+      "qrStatus": "pending",
+      "passId": "pass_twin_05",
+      "timeline": [
+        {
+          "id": "tl_P05_1",
+          "time": "Created",
+          "title": "Pass issued",
+          "description": "Visitor pass created by Sofia Alvarez"
+        },
+        {
+          "id": "tl_P05_2",
+          "time": "Pending",
+          "title": "Reservation held",
+          "description": "Slot P05"
+        }
+      ]
+    },
+    {
+      "id": "twin_p06",
+      "label": "P06",
+      "status": "available"
+    },
+    {
+      "id": "twin_p07",
+      "label": "P07",
+      "status": "occupied",
+      "vehicleType": "delivery",
+      "vehiclePlate": "TX-DLV88",
+      "visitorName": "Courier Express",
+      "residentName": "Sofia Alvarez",
+      "apartment": "C-301",
+      "arrivalTime": "2026-07-27T14:42:00.000Z",
+      "expectedExit": "2026-07-27T17:42:00.000Z",
+      "qrStatus": "approved",
+      "passId": "pass_twin_07",
+      "timeline": [
+        {
+          "id": "tl_P07_1",
+          "time": "Created",
+          "title": "Pass issued",
+          "description": "Visitor pass created by Sofia Alvarez"
+        },
+        {
+          "id": "tl_P07_2",
+          "time": "Arrived",
+          "title": "Checked in at gate",
+          "description": "Slot P07"
+        }
+      ]
+    },
+    {
+      "id": "twin_p08",
+      "label": "P08",
+      "status": "overstay",
+      "vehicleType": "taxi",
+      "vehiclePlate": "TX-2FJ19",
+      "visitorName": "Harper Kim",
+      "residentName": "Jordan Lee",
+      "apartment": "A-118",
+      "arrivalTime": "2026-07-27T15:49:00.000Z",
+      "expectedExit": "2026-07-27T20:49:00.000Z",
+      "qrStatus": "expired",
+      "passId": "pass_twin_08",
+      "timeline": [
+        {
+          "id": "tl_P08_1",
+          "time": "Created",
+          "title": "Pass issued",
+          "description": "Visitor pass created by Jordan Lee"
+        },
+        {
+          "id": "tl_P08_2",
+          "time": "Arrived",
+          "title": "Checked in at gate",
+          "description": "Slot P08"
+        }
+      ]
+    },
+    {
+      "id": "twin_p09",
+      "label": "P09",
+      "status": "available"
+    },
+    {
+      "id": "twin_p10",
+      "label": "P10",
+      "status": "occupied",
+      "vehicleType": "car",
+      "vehiclePlate": "TX-5PRIYA",
+      "visitorName": "Priya Guest",
+      "residentName": "Nina Park",
+      "apartment": "A-220",
+      "arrivalTime": "2026-07-27T09:03:00.000Z",
+      "expectedExit": "2026-07-27T12:03:00.000Z",
+      "qrStatus": "approved",
+      "passId": "pass_twin_10",
+      "timeline": [
+        {
+          "id": "tl_P10_1",
+          "time": "Created",
+          "title": "Pass issued",
+          "description": "Visitor pass created by Nina Park"
+        },
+        {
+          "id": "tl_P10_2",
+          "time": "Arrived",
+          "title": "Checked in at gate",
+          "description": "Slot P10"
+        }
+      ]
+    },
+    {
+      "id": "twin_p11",
+      "label": "P11",
+      "status": "reserved",
+      "vehicleType": "bike",
+      "vehiclePlate": "TX-7KEN",
+      "visitorName": "Kenji Sato",
+      "residentName": "Sam Okonkwo",
+      "apartment": "B-110",
+      "arrivalTime": "2026-07-27T10:10:00.000Z",
+      "expectedExit": "2026-07-27T13:10:00.000Z",
+      "qrStatus": "pending",
+      "passId": "pass_twin_11",
+      "timeline": [
+        {
+          "id": "tl_P11_1",
+          "time": "Created",
+          "title": "Pass issued",
+          "description": "Visitor pass created by Sam Okonkwo"
+        },
+        {
+          "id": "tl_P11_2",
+          "time": "Pending",
+          "title": "Reservation held",
+          "description": "Slot P11"
+        }
+      ]
+    },
+    {
+      "id": "twin_p12",
+      "label": "P12",
+      "status": "available"
+    },
+    {
+      "id": "twin_p13",
+      "label": "P13",
+      "status": "occupied",
+      "vehicleType": "car",
+      "vehiclePlate": "TX-8PL21",
+      "visitorName": "Emily Brooks",
+      "residentName": "Darshan",
+      "apartment": "B-204",
+      "arrivalTime": "2026-07-27T12:24:00.000Z",
+      "expectedExit": "2026-07-27T15:24:00.000Z",
+      "qrStatus": "approved",
+      "passId": "pass_twin_13",
+      "timeline": [
+        {
+          "id": "tl_P13_1",
+          "time": "Created",
+          "title": "Pass issued",
+          "description": "Visitor pass created by Darshan"
+        },
+        {
+          "id": "tl_P13_2",
+          "time": "Arrived",
+          "title": "Checked in at gate",
+          "description": "Slot P13"
+        }
+      ]
+    },
+    {
+      "id": "twin_p14",
+      "label": "P14",
+      "status": "available"
+    },
+    {
+      "id": "twin_p15",
+      "label": "P15",
+      "status": "occupied",
+      "vehicleType": "car",
+      "vehiclePlate": "TX-2HN77",
+      "visitorName": "Maya Singh",
+      "residentName": "Darshan",
+      "apartment": "B-204",
+      "arrivalTime": "2026-07-27T14:38:00.000Z",
+      "expectedExit": "2026-07-27T17:38:00.000Z",
+      "qrStatus": "approved",
+      "passId": "pass_twin_15",
+      "timeline": [
+        {
+          "id": "tl_P15_1",
+          "time": "Created",
+          "title": "Pass issued",
+          "description": "Visitor pass created by Darshan"
+        },
+        {
+          "id": "tl_P15_2",
+          "time": "Arrived",
+          "title": "Checked in at gate",
+          "description": "Slot P15"
+        }
+      ]
+    },
+    {
+      "id": "twin_p16",
+      "label": "P16",
+      "status": "reserved",
+      "vehicleType": "bike",
+      "vehiclePlate": "TX-6YD42",
+      "visitorName": "Liam Ortega",
+      "residentName": "Priya Nair",
+      "apartment": "Office",
+      "arrivalTime": "2026-07-27T15:45:00.000Z",
+      "expectedExit": "2026-07-27T18:45:00.000Z",
+      "qrStatus": "pending",
+      "passId": "pass_twin_16",
+      "timeline": [
+        {
+          "id": "tl_P16_1",
+          "time": "Created",
+          "title": "Pass issued",
+          "description": "Visitor pass created by Priya Nair"
+        },
+        {
+          "id": "tl_P16_2",
+          "time": "Pending",
+          "title": "Reservation held",
+          "description": "Slot P16"
+        }
+      ]
+    },
+    {
+      "id": "twin_p17",
+      "label": "P17",
+      "status": "available"
+    },
+    {
+      "id": "twin_p18",
+      "label": "P18",
+      "status": "occupied",
+      "vehicleType": "car",
+      "vehiclePlate": "TX-9GUEST",
+      "visitorName": "Sofia Guest",
+      "residentName": "Sam Okonkwo",
+      "apartment": "B-110",
+      "arrivalTime": "2026-07-27T09:59:00.000Z",
+      "expectedExit": "2026-07-27T12:59:00.000Z",
+      "qrStatus": "approved",
+      "passId": "pass_twin_18",
+      "timeline": [
+        {
+          "id": "tl_P18_1",
+          "time": "Created",
+          "title": "Pass issued",
+          "description": "Visitor pass created by Sam Okonkwo"
+        },
+        {
+          "id": "tl_P18_2",
+          "time": "Arrived",
+          "title": "Checked in at gate",
+          "description": "Slot P18"
+        }
+      ]
+    },
+    {
+      "id": "twin_p19",
+      "label": "P19",
+      "status": "available"
+    },
+    {
+      "id": "twin_p20",
+      "label": "P20",
+      "status": "occupied",
+      "vehicleType": "taxi",
+      "vehiclePlate": "TX-2FJ19",
+      "visitorName": "Harper Kim",
+      "residentName": "Jordan Lee",
+      "apartment": "A-118",
+      "arrivalTime": "2026-07-27T11:13:00.000Z",
+      "expectedExit": "2026-07-27T14:13:00.000Z",
+      "qrStatus": "approved",
+      "passId": "pass_twin_20",
+      "timeline": [
+        {
+          "id": "tl_P20_1",
+          "time": "Created",
+          "title": "Pass issued",
+          "description": "Visitor pass created by Jordan Lee"
+        },
+        {
+          "id": "tl_P20_2",
+          "time": "Arrived",
+          "title": "Checked in at gate",
+          "description": "Slot P20"
+        }
+      ]
+    },
+    {
+      "id": "twin_p21",
+      "label": "P21",
+      "status": "available"
+    },
+    {
+      "id": "twin_p22",
+      "label": "P22",
+      "status": "reserved",
+      "vehicleType": "car",
+      "vehiclePlate": "TX-5PRIYA",
+      "visitorName": "Priya Guest",
+      "residentName": "Nina Park",
+      "apartment": "A-220",
+      "arrivalTime": "2026-07-27T13:27:00.000Z",
+      "expectedExit": "2026-07-27T16:27:00.000Z",
+      "qrStatus": "pending",
+      "passId": "pass_twin_22",
+      "timeline": [
+        {
+          "id": "tl_P22_1",
+          "time": "Created",
+          "title": "Pass issued",
+          "description": "Visitor pass created by Nina Park"
+        },
+        {
+          "id": "tl_P22_2",
+          "time": "Pending",
+          "title": "Reservation held",
+          "description": "Slot P22"
+        }
+      ]
+    },
+    {
+      "id": "twin_p23",
+      "label": "P23",
+      "status": "occupied",
+      "vehicleType": "bike",
+      "vehiclePlate": "TX-7KEN",
+      "visitorName": "Kenji Sato",
+      "residentName": "Sam Okonkwo",
+      "apartment": "B-110",
+      "arrivalTime": "2026-07-27T14:34:00.000Z",
+      "expectedExit": "2026-07-27T17:34:00.000Z",
+      "qrStatus": "approved",
+      "passId": "pass_twin_23",
+      "timeline": [
+        {
+          "id": "tl_P23_1",
+          "time": "Created",
+          "title": "Pass issued",
+          "description": "Visitor pass created by Sam Okonkwo"
+        },
+        {
+          "id": "tl_P23_2",
+          "time": "Arrived",
+          "title": "Checked in at gate",
+          "description": "Slot P23"
+        }
+      ]
+    },
+    {
+      "id": "twin_p24",
+      "label": "P24",
+      "status": "available"
+    },
+    {
+      "id": "twin_p25",
+      "label": "P25",
+      "status": "occupied",
+      "vehicleType": "car",
+      "vehiclePlate": "TX-8PL21",
+      "visitorName": "Emily Brooks",
+      "residentName": "Darshan",
+      "apartment": "B-204",
+      "arrivalTime": "2026-07-27T08:48:00.000Z",
+      "expectedExit": "2026-07-27T11:48:00.000Z",
+      "qrStatus": "approved",
+      "passId": "pass_twin_25",
+      "timeline": [
+        {
+          "id": "tl_P25_1",
+          "time": "Created",
+          "title": "Pass issued",
+          "description": "Visitor pass created by Darshan"
+        },
+        {
+          "id": "tl_P25_2",
+          "time": "Arrived",
+          "title": "Checked in at gate",
+          "description": "Slot P25"
+        }
+      ]
+    },
+    {
+      "id": "twin_p26",
+      "label": "P26",
+      "status": "available"
+    },
+    {
+      "id": "twin_p27",
+      "label": "P27",
+      "status": "reserved",
+      "vehicleType": "car",
+      "vehiclePlate": "TX-2HN77",
+      "visitorName": "Maya Singh",
+      "residentName": "Darshan",
+      "apartment": "B-204",
+      "arrivalTime": "2026-07-27T10:02:00.000Z",
+      "expectedExit": "2026-07-27T13:02:00.000Z",
+      "qrStatus": "pending",
+      "passId": "pass_twin_27",
+      "timeline": [
+        {
+          "id": "tl_P27_1",
+          "time": "Created",
+          "title": "Pass issued",
+          "description": "Visitor pass created by Darshan"
+        },
+        {
+          "id": "tl_P27_2",
+          "time": "Pending",
+          "title": "Reservation held",
+          "description": "Slot P27"
+        }
+      ]
+    },
+    {
+      "id": "twin_p28",
+      "label": "P28",
+      "status": "available"
+    },
+    {
+      "id": "twin_p29",
+      "label": "P29",
+      "status": "occupied",
+      "vehicleType": "car",
+      "vehiclePlate": "TX-4DEMO1",
+      "visitorName": "Alex Rivera",
+      "residentName": "Sofia Alvarez",
+      "apartment": "C-301",
+      "arrivalTime": "2026-07-27T12:16:00.000Z",
+      "expectedExit": "2026-07-27T15:16:00.000Z",
+      "qrStatus": "approved",
+      "passId": "pass_twin_29",
+      "timeline": [
+        {
+          "id": "tl_P29_1",
+          "time": "Created",
+          "title": "Pass issued",
+          "description": "Visitor pass created by Sofia Alvarez"
+        },
+        {
+          "id": "tl_P29_2",
+          "time": "Arrived",
+          "title": "Checked in at gate",
+          "description": "Slot P29"
+        }
+      ]
+    },
+    {
+      "id": "twin_p30",
+      "label": "P30",
+      "status": "available"
+    }
+  ],
+  "activity": [
+    {
+      "id": "act_01",
+      "type": "occupied",
+      "title": "P01 occupied.",
+      "description": "Emily Brooks · TX-8PL21",
+      "timestamp": "2026-07-27T15:57:09.792Z",
+      "slotLabel": "P01"
+    },
+    {
+      "id": "act_02",
+      "type": "released",
+      "title": "P12 released.",
+      "description": "Bay cleared after exit",
+      "timestamp": "2026-07-27T15:55:09.792Z",
+      "slotLabel": "P12"
+    },
+    {
+      "id": "act_03",
+      "type": "entered",
+      "title": "Visitor entered.",
+      "description": "Noah Patel verified at Gate A",
+      "timestamp": "2026-07-27T15:53:09.792Z",
+      "slotLabel": "P02"
+    },
+    {
+      "id": "act_04",
+      "type": "exited",
+      "title": "Visitor exited.",
+      "description": "Harper Kim left Riverside Heights",
+      "timestamp": "2026-07-27T15:51:09.792Z",
+      "slotLabel": "P16"
+    },
+    {
+      "id": "act_05",
+      "type": "expired",
+      "title": "Reservation expired.",
+      "description": "Hold on P22 timed out",
+      "timestamp": "2026-07-27T15:49:09.792Z",
+      "slotLabel": "P22"
+    },
+    {
+      "id": "act_06",
+      "type": "reserved",
+      "title": "P05 reserved.",
+      "description": "Liam Ortega · pending arrival",
+      "timestamp": "2026-07-27T15:47:09.792Z",
+      "slotLabel": "P05"
+    }
+  ],
+  "incomingVisitors": 4,
+  "outgoingVisitors": 2
+}

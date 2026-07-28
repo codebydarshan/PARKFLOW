@@ -1,0 +1,44 @@
+[
+  {
+    "id": "act_01",
+    "type": "check_in",
+    "title": "Visitor checked in",
+    "description": "Emily Brooks assigned to slot A-03",
+    "timestamp": "2026-07-26T10:12:00.000Z"
+  },
+  {
+    "id": "act_02",
+    "type": "pass_created",
+    "title": "Pass created",
+    "description": "Sofia Alvarez invited Liam Ortega",
+    "timestamp": "2026-07-26T14:12:00.000Z"
+  },
+  {
+    "id": "act_03",
+    "type": "slot_assigned",
+    "title": "Slot reserved",
+    "description": "B-06 reserved for Noah Patel",
+    "timestamp": "2026-07-26T09:35:00.000Z"
+  },
+  {
+    "id": "act_04",
+    "type": "alert",
+    "title": "Zone capacity warning",
+    "description": "Tower A at 72% occupancy",
+    "timestamp": "2026-07-26T13:05:00.000Z"
+  },
+  {
+    "id": "act_05",
+    "type": "check_out",
+    "title": "Visitor checked out",
+    "description": "Harper Kim released slot C-02",
+    "timestamp": "2026-07-25T17:04:00.000Z"
+  },
+  {
+    "id": "act_06",
+    "type": "pass_created",
+    "title": "Pass created",
+    "description": "Ava Chen invited Emily Brooks",
+    "timestamp": "2026-07-26T07:45:00.000Z"
+  }
+]

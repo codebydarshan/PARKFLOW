@@ -1,0 +1,42 @@
+[
+  {
+    "id": "usr_darshan",
+    "name": "Darshan",
+    "email": "darshan@riverside.demo",
+    "role": "resident",
+    "unit": "B-204",
+    "avatarInitials": "D"
+  },
+  {
+    "id": "usr_02",
+    "name": "Marcus Webb",
+    "email": "marcus.webb@riverside.demo",
+    "role": "security",
+    "unit": "Gate A",
+    "avatarInitials": "MW"
+  },
+  {
+    "id": "usr_03",
+    "name": "Priya Nair",
+    "email": "priya.nair@riverside.demo",
+    "role": "admin",
+    "unit": "Office",
+    "avatarInitials": "PN"
+  },
+  {
+    "id": "usr_04",
+    "name": "Jordan Lee",
+    "email": "jordan.lee@riverside.demo",
+    "role": "resident",
+    "unit": "A-118",
+    "avatarInitials": "JL"
+  },
+  {
+    "id": "usr_05",
+    "name": "Sofia Alvarez",
+    "email": "sofia.alvarez@riverside.demo",
+    "role": "resident",
+    "unit": "C-301",
+    "avatarInitials": "SA"
+  }
+]

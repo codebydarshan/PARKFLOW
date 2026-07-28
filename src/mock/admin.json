@@ -1,0 +1,403 @@
+{
+  "profile": {
+    "id": "usr_03",
+    "name": "Priya Nair",
+    "email": "priya.nair@riverside.demo",
+    "role": "admin",
+    "unit": "Office",
+    "avatarInitials": "PN"
+  },
+  "communityName": "Riverside Heights",
+  "stats": {
+    "todayVisitors": 42,
+    "visitorsInside": 18,
+    "occupancyRate": 72,
+    "averageVisitHours": 3.4,
+    "peakOccupancy": 88,
+    "overstays": 3
+  },
+  "occupancy": {
+    "occupied": 22,
+    "reserved": 5,
+    "available": 13,
+    "total": 30
+  },
+  "timeline": [
+    {
+      "id": "adm_tl_01",
+      "time": "8:12 AM",
+      "title": "Emily Brooks checked in",
+      "description": "Slot P01 · Host Darshan · B-204"
+    },
+    {
+      "id": "adm_tl_02",
+      "time": "10:08 AM",
+      "title": "Noah Patel assigned",
+      "description": "Slot P02 reserved at Gate A"
+    },
+    {
+      "id": "adm_tl_03",
+      "time": "1:05 PM",
+      "title": "Courier Express entered",
+      "description": "Short-stay delivery · Visitor Bay"
+    },
+    {
+      "id": "adm_tl_04",
+      "time": "3:40 PM",
+      "title": "Overstay flagged",
+      "description": "Sofia Guest nearing expiry on P08"
+    },
+    {
+      "id": "adm_tl_05",
+      "time": "5:15 PM",
+      "title": "Peak window opening",
+      "description": "Expected surge between 6–8 PM"
+    },
+    {
+      "id": "adm_tl_06",
+      "time": "6:02 PM",
+      "title": "Pass issued",
+      "description": "Maya Singh · pending arrival"
+    }
+  ],
+  "hourlyVisits": [
+    { "hour": "8a", "visitors": 4 },
+    { "hour": "9a", "visitors": 6 },
+    { "hour": "10a", "visitors": 9 },
+    { "hour": "11a", "visitors": 7 },
+    { "hour": "12p", "visitors": 11 },
+    { "hour": "1p", "visitors": 8 },
+    { "hour": "2p", "visitors": 10 },
+    { "hour": "3p", "visitors": 12 },
+    { "hour": "4p", "visitors": 14 },
+    { "hour": "5p", "visitors": 16 },
+    { "hour": "6p", "visitors": 21 },
+    { "hour": "7p", "visitors": 18 }
+  ],
+  "topFlats": [
+    { "apartment": "B-204", "residentName": "Darshan", "visits": 28 },
+    { "apartment": "A-118", "residentName": "Jordan Lee", "visits": 21 },
+    { "apartment": "C-301", "residentName": "Sofia Alvarez", "visits": 17 },
+    { "apartment": "Office", "residentName": "Priya Nair", "visits": 12 },
+    { "apartment": "B-110", "residentName": "Sam Okonkwo", "visits": 9 }
+  ],
+  "recentPasses": [
+    {
+      "id": "pass_a01",
+      "visitorName": "Emily Brooks",
+      "residentName": "Darshan",
+      "vehiclePlate": "TX-8PL21",
+      "slotLabel": "P01",
+      "visitDate": "2026-07-27",
+      "status": "approved"
+    },
+    {
+      "id": "pass_a02",
+      "visitorName": "Noah Patel",
+      "residentName": "Jordan Lee",
+      "vehiclePlate": "TX-1VK03",
+      "slotLabel": "P02",
+      "visitDate": "2026-07-27",
+      "status": "active"
+    },
+    {
+      "id": "pass_a03",
+      "visitorName": "Maya Singh",
+      "residentName": "Darshan",
+      "vehiclePlate": "TX-2HN77",
+      "slotLabel": null,
+      "visitDate": "2026-07-27",
+      "status": "pending"
+    },
+    {
+      "id": "pass_a04",
+      "visitorName": "Courier Express",
+      "residentName": "Sofia Alvarez",
+      "vehiclePlate": "TX-DLV88",
+      "slotLabel": "P13",
+      "visitDate": "2026-07-27",
+      "status": "active"
+    },
+    {
+      "id": "pass_a05",
+      "visitorName": "Harper Kim",
+      "residentName": "Jordan Lee",
+      "vehiclePlate": "TX-2FJ19",
+      "slotLabel": "P16",
+      "visitDate": "2026-07-26",
+      "status": "expired"
+    }
+  ],
+  "residents": [
+    {
+      "id": "res_01",
+      "name": "Darshan",
+      "apartment": "B-204",
+      "vehicles": 2,
+      "visitorCount": 28,
+      "lastVisitor": "Emily Brooks",
+      "status": "active"
+    },
+    {
+      "id": "res_02",
+      "name": "Jordan Lee",
+      "apartment": "A-118",
+      "vehicles": 1,
+      "visitorCount": 21,
+      "lastVisitor": "Noah Patel",
+      "status": "active"
+    },
+    {
+      "id": "res_03",
+      "name": "Sofia Alvarez",
+      "apartment": "C-301",
+      "vehicles": 2,
+      "visitorCount": 17,
+      "lastVisitor": "Courier Express",
+      "status": "active"
+    },
+    {
+      "id": "res_04",
+      "name": "Sam Okonkwo",
+      "apartment": "B-110",
+      "vehicles": 1,
+      "visitorCount": 9,
+      "lastVisitor": "Alex Rivera",
+      "status": "active"
+    },
+    {
+      "id": "res_05",
+      "name": "Nina Park",
+      "apartment": "A-220",
+      "vehicles": 0,
+      "visitorCount": 0,
+      "lastVisitor": "—",
+      "status": "inactive"
+    }
+  ],
+  "securityOverview": {
+    "guardsOnDuty": 3,
+    "verifiedToday": 36,
+    "averageVerificationSeconds": 4.2,
+    "rejectedEntries": 2
+  },
+  "insights": [
+    {
+      "id": "ins_01",
+      "text": "Peak traffic expected at 6 PM."
+    },
+    {
+      "id": "ins_02",
+      "text": "Parking occupancy is currently 72%."
+    },
+    {
+      "id": "ins_03",
+      "text": "3 visitors are nearing expiry."
+    },
+    {
+      "id": "ins_04",
+      "text": "Visitor traffic is higher than yesterday."
+    }
+  ],
+  "reports": [
+    {
+      "id": "rep_daily",
+      "title": "Daily Report",
+      "description": "Today's entries, exits, and occupancy snapshot.",
+      "period": "Today"
+    },
+    {
+      "id": "rep_weekly",
+      "title": "Weekly Report",
+      "description": "7-day visitor trends and peak hour analysis.",
+      "period": "This week"
+    },
+    {
+      "id": "rep_monthly",
+      "title": "Monthly Report",
+      "description": "Community-wide parking utilization summary.",
+      "period": "July 2026"
+    }
+  ],
+  "policies": [
+    "Visitor window 8:00 AM – 10:00 PM",
+    "Max 2 active passes per unit",
+    "Delivery stays capped at 2 hours"
+  ],
+  "slots": [
+    {
+      "id": "slot_p01",
+      "label": "P01",
+      "status": "occupied",
+      "vehiclePlate": "TX-8PL21",
+      "visitorName": "Emily Brooks",
+      "residentName": "Darshan",
+      "arrivalTime": "2026-07-27T09:00:00.000Z",
+      "expectedExit": "2026-07-27T15:00:00.000Z"
+    },
+    {
+      "id": "slot_p02",
+      "label": "P02",
+      "status": "occupied",
+      "vehiclePlate": "TX-1VK03",
+      "visitorName": "Noah Patel",
+      "residentName": "Jordan Lee",
+      "arrivalTime": "2026-07-27T10:00:00.000Z",
+      "expectedExit": "2026-07-27T16:00:00.000Z"
+    },
+    { "id": "slot_p03", "label": "P03", "status": "available" },
+    {
+      "id": "slot_p04",
+      "label": "P04",
+      "status": "occupied",
+      "vehiclePlate": "TX-2HN77",
+      "visitorName": "Maya Singh",
+      "residentName": "Priya Nair",
+      "arrivalTime": "2026-07-27T12:00:00.000Z",
+      "expectedExit": "2026-07-27T18:00:00.000Z"
+    },
+    {
+      "id": "slot_p05",
+      "label": "P05",
+      "status": "reserved",
+      "vehiclePlate": "TX-6YD42",
+      "visitorName": "Liam Ortega",
+      "residentName": "Darshan",
+      "arrivalTime": "2026-07-27T13:00:00.000Z",
+      "expectedExit": "2026-07-27T19:00:00.000Z"
+    },
+    { "id": "slot_p06", "label": "P06", "status": "available" },
+    {
+      "id": "slot_p07",
+      "label": "P07",
+      "status": "occupied",
+      "vehiclePlate": "TX-4DEMO1",
+      "visitorName": "Alex Rivera",
+      "residentName": "Sofia Alvarez",
+      "arrivalTime": "2026-07-27T15:00:00.000Z",
+      "expectedExit": "2026-07-27T21:00:00.000Z"
+    },
+    {
+      "id": "slot_p08",
+      "label": "P08",
+      "status": "occupied",
+      "vehiclePlate": "TX-7XM55",
+      "visitorName": "Sofia Guest",
+      "residentName": "Priya Nair",
+      "arrivalTime": "2026-07-27T14:00:00.000Z",
+      "expectedExit": "2026-07-27T16:00:00.000Z"
+    },
+    { "id": "slot_p09", "label": "P09", "status": "available" },
+    {
+      "id": "slot_p10",
+      "label": "P10",
+      "status": "reserved",
+      "vehiclePlate": "TX-1VK03",
+      "visitorName": "Guest Courier",
+      "residentName": "Jordan Lee",
+      "arrivalTime": "2026-07-27T08:00:00.000Z",
+      "expectedExit": "2026-07-27T16:00:00.000Z"
+    },
+    {
+      "id": "slot_p11",
+      "label": "P11",
+      "status": "occupied",
+      "vehiclePlate": "TX-DLV88",
+      "visitorName": "Courier Express",
+      "residentName": "Sofia Alvarez",
+      "arrivalTime": "2026-07-27T09:00:00.000Z",
+      "expectedExit": "2026-07-27T17:00:00.000Z"
+    },
+    { "id": "slot_p12", "label": "P12", "status": "available" },
+    {
+      "id": "slot_p13",
+      "label": "P13",
+      "status": "occupied",
+      "vehiclePlate": "TX-6YD42",
+      "visitorName": "Liam Ortega",
+      "residentName": "Darshan",
+      "arrivalTime": "2026-07-27T11:00:00.000Z",
+      "expectedExit": "2026-07-27T19:00:00.000Z"
+    },
+    {
+      "id": "slot_p14",
+      "label": "P14",
+      "status": "occupied",
+      "vehiclePlate": "TX-5RT88",
+      "visitorName": "Priya Guest",
+      "residentName": "Jordan Lee",
+      "arrivalTime": "2026-07-27T12:00:00.000Z",
+      "expectedExit": "2026-07-27T20:00:00.000Z"
+    },
+    {
+      "id": "slot_p15",
+      "label": "P15",
+      "status": "reserved",
+      "vehiclePlate": "TX-4DEMO1",
+      "visitorName": "Alex Rivera",
+      "residentName": "Sofia Alvarez",
+      "arrivalTime": "2026-07-27T13:00:00.000Z",
+      "expectedExit": "2026-07-27T21:00:00.000Z"
+    },
+    {
+      "id": "slot_p16",
+      "label": "P16",
+      "status": "occupied",
+      "vehiclePlate": "TX-7XM55",
+      "visitorName": "Harper Kim",
+      "residentName": "Priya Nair",
+      "arrivalTime": "2026-07-27T10:00:00.000Z",
+      "expectedExit": "2026-07-27T14:00:00.000Z"
+    },
+    {
+      "id": "slot_p17",
+      "label": "P17",
+      "status": "occupied",
+      "vehiclePlate": "TX-8PL21",
+      "visitorName": "Office Visitor",
+      "residentName": "Darshan",
+      "arrivalTime": "2026-07-27T15:00:00.000Z",
+      "expectedExit": "2026-07-27T18:00:00.000Z"
+    },
+    { "id": "slot_p18", "label": "P18", "status": "available" },
+    { "id": "slot_p19", "label": "P19", "status": "available" },
+    {
+      "id": "slot_p20",
+      "label": "P20",
+      "status": "reserved",
+      "vehiclePlate": "TX-2HN77",
+      "visitorName": "Evening Guest",
+      "residentName": "Priya Nair",
+      "arrivalTime": "2026-07-27T18:00:00.000Z",
+      "expectedExit": "2026-07-27T22:00:00.000Z"
+    },
+    { "id": "slot_p21", "label": "P21", "status": "available" },
+    { "id": "slot_p22", "label": "P22", "status": "available" },
+    { "id": "slot_p23", "label": "P23", "status": "available" },
+    {
+      "id": "slot_p24",
+      "label": "P24",
+      "status": "reserved",
+      "vehiclePlate": "TX-7XM55",
+      "visitorName": "Maya Singh",
+      "residentName": "Priya Nair",
+      "arrivalTime": "2026-07-27T12:00:00.000Z",
+      "expectedExit": "2026-07-27T14:00:00.000Z"
+    },
+    { "id": "slot_p25", "label": "P25", "status": "available" },
+    { "id": "slot_p26", "label": "P26", "status": "available" },
+    { "id": "slot_p27", "label": "P27", "status": "available" },
+    {
+      "id": "slot_p28",
+      "label": "P28",
+      "status": "reserved",
+      "vehiclePlate": "TX-2HN77",
+      "visitorName": "Late Arrival",
+      "residentName": "Priya Nair",
+      "arrivalTime": "2026-07-27T16:00:00.000Z",
+      "expectedExit": "2026-07-27T18:00:00.000Z"
+    },
+    { "id": "slot_p29", "label": "P29", "status": "available" },
+    { "id": "slot_p30", "label": "P30", "status": "available" }
+  ]
+}

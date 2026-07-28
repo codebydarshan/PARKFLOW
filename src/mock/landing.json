@@ -1,0 +1,145 @@
+{
+  "problems": [
+    {
+      "id": "guest_confusion",
+      "title": "Guests don't know where to park",
+      "description": "Visitors circle the lot, call the host, and block driveways while hunting for an open spot."
+    },
+    {
+      "id": "gate_friction",
+      "title": "Security has no source of truth",
+      "description": "Guards rely on WhatsApp screenshots and handwritten notes—expired passes still get waved through."
+    },
+    {
+      "id": "slot_conflicts",
+      "title": "Reserved spots get stolen",
+      "description": "Without allocation, visitor bays become first-come chaos and residents lose trust in the system."
+    },
+    {
+      "id": "no_visibility",
+      "title": "Admins fly blind",
+      "description": "Communities can't see occupancy, active guests, or peak visitor hours in one place."
+    }
+  ],
+  "beforeAfter": {
+    "before": [
+      "Phone calls and screenshots at the gate",
+      "Guests circling for open bays",
+      "Slot conflicts between residents",
+      "No live occupancy view"
+    ],
+    "after": [
+      "QR pass verified in seconds",
+      "Bay assigned automatically",
+      "Conflict-free visitor inventory",
+      "Mission Control for the whole site"
+    ]
+  },
+  "workflow": [
+    {
+      "id": "resident",
+      "title": "Resident",
+      "description": "Host creates a time-bound visitor pass in moments."
+    },
+    {
+      "id": "qr",
+      "title": "QR",
+      "description": "A scannable credential is generated instantly."
+    },
+    {
+      "id": "security",
+      "title": "Security",
+      "description": "Gate staff verifies status with one clear decision."
+    },
+    {
+      "id": "parking",
+      "title": "Parking",
+      "description": "The allocation engine assigns the right visitor bay."
+    },
+    {
+      "id": "exit",
+      "title": "Exit",
+      "description": "Checkout releases the bay back to available."
+    }
+  ],
+  "features": [
+    {
+      "id": "qr_passes",
+      "title": "QR Visitor Passes",
+      "description": "Time-bound, shareable passes with plate, host, and validity baked in."
+    },
+    {
+      "id": "smart_allocation",
+      "title": "Smart Parking Allocation",
+      "description": "Zones and availability drive automatic slot assignment—no guesswork."
+    },
+    {
+      "id": "realtime_status",
+      "title": "Real-Time Parking Status",
+      "description": "Live occupancy across towers and visitor bays, always up to date."
+    },
+    {
+      "id": "timeline",
+      "title": "Visitor Timeline",
+      "description": "A clear trail from invite to checkout for every guest vehicle."
+    },
+    {
+      "id": "admin",
+      "title": "Admin Dashboard",
+      "description": "Inventory, residents, and policy controls in one premium console."
+    },
+    {
+      "id": "security",
+      "title": "Security Dashboard",
+      "description": "Gate verification built for speed—approve or deny with confidence."
+    }
+  ],
+  "trustMetrics": [
+    { "id": "m1", "value": "30", "suffix": "", "label": "Visitor bays orchestrated" },
+    { "id": "m2", "value": "4.2", "suffix": "s", "label": "Avg. gate verification" },
+    { "id": "m3", "value": "98", "suffix": "%", "label": "Pass scan success" },
+    { "id": "m4", "value": "0", "suffix": "", "label": "Clipboard handoffs" }
+  ],
+  "logos": [
+    { "id": "l1", "name": "Riverside" },
+    { "id": "l2", "name": "Northbridge" },
+    { "id": "l3", "name": "Cedar Court" },
+    { "id": "l4", "name": "Harbor View" },
+    { "id": "l5", "name": "Elm Residences" }
+  ],
+  "testimonials": [
+    {
+      "id": "t1",
+      "quote": "Our gate stopped being a bottleneck overnight. Guests arrive with a QR and leave with a slot—no radio calls.",
+      "name": "Priya Nair",
+      "role": "Community Admin",
+      "community": "Riverside Heights"
+    },
+    {
+      "id": "t2",
+      "quote": "I issue a pass in under a minute. My parents never have to circle the basement looking for parking again.",
+      "name": "Ava Chen",
+      "role": "Resident · B-204",
+      "community": "Riverside Heights"
+    },
+    {
+      "id": "t3",
+      "quote": "Verification is visual and fast. Active, expired, revoked—I know before the barrier lifts.",
+      "name": "Marcus Webb",
+      "role": "Security Lead",
+      "community": "Gate A"
+    }
+  ],
+  "pricing": {
+    "eyebrow": "Pricing",
+    "title": "Coming soon",
+    "description": "ParkFlow pricing will open after the pilot. Explore the live demo today—no credit card, no waitlist friction.",
+    "cta": "Start Live Demo"
+  },
+  "cta": {
+    "eyebrow": "Ready when you are",
+    "title": "See the full visitor journey in sixty seconds.",
+    "description": "One click. Zero setup. The live demo walks investors through resident, security, twin, and admin—end to end.",
+    "cta": "Start Live Demo"
+  }
+}

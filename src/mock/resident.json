@@ -1,0 +1,144 @@
+{
+  "profile": {
+    "id": "usr_darshan",
+    "name": "Darshan",
+    "email": "darshan@riverside.demo",
+    "role": "resident",
+    "unit": "B-204",
+    "avatarInitials": "D"
+  },
+  "stats": {
+    "todayVisitors": 3,
+    "upcomingVisitors": 2,
+    "availableParking": 24,
+    "occupancyRate": 62,
+    "activePasses": 2
+  },
+  "vehicles": [
+    {
+      "id": "veh_01",
+      "label": "Family SUV",
+      "plate": "TX-4K9M2",
+      "type": "car"
+    },
+    {
+      "id": "veh_02",
+      "label": "City Scooter",
+      "plate": "TX-BIKE09",
+      "type": "bike"
+    }
+  ],
+  "passes": [
+    {
+      "id": "pass_r01",
+      "visitorName": "Emily Brooks",
+      "vehiclePlate": "TX-8PL21",
+      "hostName": "Darshan",
+      "hostUnit": "B-204",
+      "slotId": "slot_a03",
+      "slotLabel": "A-03",
+      "status": "approved",
+      "validFrom": "2026-07-26T08:00:00.000Z",
+      "validUntil": "2026-07-26T22:00:00.000Z",
+      "qrCode": "PF-PASS-R01-DARSHAN",
+      "createdAt": "2026-07-26T07:45:00.000Z",
+      "phone": "+1 512 555 0142",
+      "vehicleType": "car",
+      "visitDate": "2026-07-26",
+      "durationHours": 14,
+      "notes": "Parents visiting for dinner"
+    },
+    {
+      "id": "pass_r02",
+      "visitorName": "Courier Express",
+      "vehiclePlate": "TX-DLV88",
+      "hostName": "Darshan",
+      "hostUnit": "B-204",
+      "slotId": "slot_c01",
+      "slotLabel": "C-01",
+      "status": "active",
+      "validFrom": "2026-07-26T15:00:00.000Z",
+      "validUntil": "2026-07-26T17:00:00.000Z",
+      "qrCode": "PF-PASS-R02-DARSHAN",
+      "createdAt": "2026-07-26T14:40:00.000Z",
+      "phone": "+1 512 555 0199",
+      "vehicleType": "delivery",
+      "visitDate": "2026-07-26",
+      "durationHours": 2,
+      "notes": "Package delivery"
+    },
+    {
+      "id": "pass_r03",
+      "visitorName": "Maya Singh",
+      "vehiclePlate": "TX-2HN77",
+      "hostName": "Darshan",
+      "hostUnit": "B-204",
+      "slotId": null,
+      "slotLabel": null,
+      "status": "pending",
+      "validFrom": "2026-07-27T10:00:00.000Z",
+      "validUntil": "2026-07-27T14:00:00.000Z",
+      "qrCode": "PF-PASS-R03-DARSHAN",
+      "createdAt": "2026-07-26T18:00:00.000Z",
+      "phone": "+1 512 555 0110",
+      "vehicleType": "car",
+      "visitDate": "2026-07-27",
+      "durationHours": 4,
+      "notes": "Brunch tomorrow"
+    },
+    {
+      "id": "pass_r04",
+      "visitorName": "Harper Kim",
+      "vehiclePlate": "TX-2FJ19",
+      "hostName": "Darshan",
+      "hostUnit": "B-204",
+      "slotId": "slot_c02",
+      "slotLabel": "C-02",
+      "status": "expired",
+      "validFrom": "2026-07-25T09:00:00.000Z",
+      "validUntil": "2026-07-25T17:00:00.000Z",
+      "qrCode": "PF-PASS-R04-DARSHAN",
+      "createdAt": "2026-07-25T08:40:00.000Z",
+      "phone": "+1 512 555 0177",
+      "vehicleType": "taxi",
+      "visitDate": "2026-07-25",
+      "durationHours": 8
+    }
+  ],
+  "timeline": [
+    {
+      "id": "tl_01",
+      "time": "8:12 AM",
+      "title": "Emily checked in",
+      "description": "Assigned to slot A-03"
+    },
+    {
+      "id": "tl_02",
+      "time": "2:40 PM",
+      "title": "Delivery pass issued",
+      "description": "Courier Express · C-01"
+    },
+    {
+      "id": "tl_03",
+      "time": "6:00 PM",
+      "title": "Upcoming: Maya Singh",
+      "description": "Tomorrow 10:00 AM · pending slot"
+    }
+  ],
+  "upcoming": {
+    "visitorName": "Maya Singh",
+    "vehiclePlate": "TX-2HN77",
+    "when": "Tomorrow · 10:00 AM",
+    "status": "pending"
+  },
+  "parkingAvailability": [
+    { "zone": "Tower A", "available": 3, "total": 6 },
+    { "zone": "Tower B", "available": 2, "total": 6 },
+    { "zone": "Visitor Bay", "available": 4, "total": 6 }
+  ],
+  "tips": [
+    "Issue passes before guests arrive for instant gate approval.",
+    "Delivery vehicles get short-duration Visitor Bay slots by default.",
+    "Share the QR pass via message—guards scan it at Gate A."
+  ]
+}

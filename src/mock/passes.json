@@ -1,0 +1,72 @@
+[
+  {
+    "id": "pass_1001",
+    "visitorName": "Emily Brooks",
+    "vehiclePlate": "TX-8PL21",
+    "hostName": "Ava Chen",
+    "hostUnit": "B-204",
+    "slotId": "slot_a03",
+    "slotLabel": "A-03",
+    "status": "active",
+    "validFrom": "2026-07-26T08:00:00.000Z",
+    "validUntil": "2026-07-26T22:00:00.000Z",
+    "qrCode": "PF-PASS-1001-RIVERSIDE",
+    "createdAt": "2026-07-26T07:45:00.000Z"
+  },
+  {
+    "id": "pass_1002",
+    "visitorName": "Noah Patel",
+    "vehiclePlate": "TX-1VK03",
+    "hostName": "Jordan Lee",
+    "hostUnit": "A-118",
+    "slotId": "slot_b06",
+    "slotLabel": "B-06",
+    "status": "active",
+    "validFrom": "2026-07-26T10:00:00.000Z",
+    "validUntil": "2026-07-26T18:00:00.000Z",
+    "qrCode": "PF-PASS-1002-RIVERSIDE",
+    "createdAt": "2026-07-26T09:30:00.000Z"
+  },
+  {
+    "id": "pass_1003",
+    "visitorName": "Liam Ortega",
+    "vehiclePlate": "TX-6YD42",
+    "hostName": "Sofia Alvarez",
+    "hostUnit": "C-301",
+    "slotId": null,
+    "slotLabel": null,
+    "status": "pending",
+    "validFrom": "2026-07-26T16:00:00.000Z",
+    "validUntil": "2026-07-26T21:00:00.000Z",
+    "qrCode": "PF-PASS-1003-RIVERSIDE",
+    "createdAt": "2026-07-26T14:12:00.000Z"
+  },
+  {
+    "id": "pass_1004",
+    "visitorName": "Harper Kim",
+    "vehiclePlate": "TX-2FJ19",
+    "hostName": "Ava Chen",
+    "hostUnit": "B-204",
+    "slotId": "slot_c02",
+    "slotLabel": "C-02",
+    "status": "expired",
+    "validFrom": "2026-07-25T09:00:00.000Z",
+    "validUntil": "2026-07-25T17:00:00.000Z",
+    "qrCode": "PF-PASS-1004-RIVERSIDE",
+    "createdAt": "2026-07-25T08:40:00.000Z"
+  },
+  {
+    "id": "pass_1005",
+    "visitorName": "Ethan Cole",
+    "vehiclePlate": "TX-9HG61",
+    "hostName": "Jordan Lee",
+    "hostUnit": "A-118",
+    "slotId": null,
+    "slotLabel": null,
+    "status": "revoked",
+    "validFrom": "2026-07-24T12:00:00.000Z",
+    "validUntil": "2026-07-24T20:00:00.000Z",
+    "qrCode": "PF-PASS-1005-RIVERSIDE",
+    "createdAt": "2026-07-24T11:15:00.000Z"
+  }
+]
