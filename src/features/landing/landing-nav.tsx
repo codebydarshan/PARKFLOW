@@ -22,7 +22,7 @@ const links = [
   { href: "#solution", label: "Solution" },
   { href: "#features", label: "Features" },
   { href: "#preview", label: "Preview" },
-  { href: "#pricing", label: "Pricing" },
+//  { href: "#pricing", label: "Pricing" },
 ];
 
 export function LandingNav() {
