@@ -6,10 +6,10 @@ import { HeroSection } from "@/features/landing/hero-section";
 import { LandingFooter } from "@/features/landing/landing-footer";
 import { LandingNav } from "@/features/landing/landing-nav";
 import { PreviewSection } from "@/features/landing/preview-section";
-import { PricingSection } from "@/features/landing/pricing-section";
+// import { PricingSection } from "@/features/landing/pricing-section";
 import { ProblemSection } from "@/features/landing/problem-section";
 import { SolutionSection } from "@/features/landing/solution-section";
-import { TestimonialsSection } from "@/features/landing/testimonials-section";
+// import { TestimonialsSection } from "@/features/landing/testimonials-section";
 import { getLandingContent } from "@/services/landing";
 
 export function LandingPage() {
@@ -27,14 +27,17 @@ export function LandingPage() {
           />
           <SolutionSection steps={content.workflow} />
           <FeaturesSection features={content.features} />
-          <PreviewSection />
+                    <PreviewSection />
+          {/* Hidden until real pilot feedback exists:
           <TestimonialsSection
             testimonials={content.testimonials}
             logos={content.logos}
             trustMetrics={content.trustMetrics}
           />
           <PricingSection pricing={content.pricing} />
+          */}
           <CtaSection cta={content.cta} />
+      
         </main>
         <LandingFooter />
       </div>
