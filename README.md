@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PARKFLOW – Visitor Parking Management Prototype
 
-## Getting Started
+A prototype for managing visitor parking in residential communities, with separate workflows for residents, security staff and administrators.
 
-First, run the development server:
+## Problem
+Visitors often don't know where to park, and security staff have no single record of who is expected. I saw this in my own neighbourhood, and the same problem appears on Razorpay's Fix My Itch platform ("Why don't apartments use QR gates for visitor parking management?").
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## What it does
+- **Residents** create time-bound visitor passes; each pass gets a generated QR code.
+- **Security staff** verify passes at the gate (scanning is simulated) and see active visitors.
+- **Administrators** see occupancy, recent passes and parking activity.
+- A **parking view** (`/parking`) shows each bay's status: available, reserved, occupied, overstay, blocked or under maintenance.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## How bay allocation works
+Allocation runs in two stages (`src/services/parking-engine/rules.ts`):
+1. **Hard requirements (filter):** the bay must be available, fit the vehicle size, and be accessible if the visitor needs accessibility.
+2. **Preferences (score):** the remaining bays are ranked by preferred zone for the visitor category and distance from the gate. Preferences reorder bays but never override a requirement.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Exception: if an emergency visitor needs an accessible bay and none is free, the nearest available bay is assigned.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Before assigning a bay, the engine rejects duplicate vehicles, visitors and passes that already have an active assignment, and expires stale reservations.
 
-## Learn More
+The engine sits behind a strategy interface (`AllocationStrategy` in `src/services/parking-engine/allocator.ts`), so the rule set can be replaced without changing the rest of the app.
 
-To learn more about Next.js, take a look at the following resources:
+## Run locally
+Requires Node.js 20 or later.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    npm install
+    npm run dev
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Open http://localhost:3000, go to the login page, and pick a role (Resident, Security or Admin). Login is demo-only; there is no real authentication.
 
-## Deploy on Vercel
+## Limitations
+- Prototype only; not deployed.
+- All data is sample data held in memory, so it resets on reload. There is no backend or database.
+- QR codes are generated, but gate scanning is simulated (no camera scanning).
+- No automated tests.
+- Sample testimonials, metrics and pricing are hidden from the landing page because they are not real feedback.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Tech
+Next.js, React, TypeScript, Tailwind CSS
